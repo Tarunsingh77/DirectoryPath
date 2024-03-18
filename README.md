@@ -32,6 +32,18 @@ select * from heatmap.objectdetection_types;
 select * from heatmap.cameras;
 select * from heatmap.users;
 ```
+To see the description of the tables
+```
+describe heatmap.detection_data;
+
+describe heatmap.objectdetection_types;
+
+describe heatmap.cameras;
+
+describe heatmap.users;
+
+
+```
 ## kafka server
 service file running on path for kafka-zookeeper (Zookeeper is a service that Kafka uses to manage its cluster state and configurations)
 ```
@@ -55,6 +67,8 @@ Python script file (located at /media/transpix/hdd1/programs) Speed_heatMap_Aler
  To see the running status you can use following command
  ```
  sudo systemctl status heatmap.timer
+ sudo systemctl status heatmap.service
+
  ```
  To see the timer file 
  ```
