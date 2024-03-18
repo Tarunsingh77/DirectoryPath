@@ -68,7 +68,7 @@ sudo nano /etc/systemd/system/alert.service
 sudo systemctl status alert.service
 ```
 ### Dashboard
-currently i have not create service file for it but you can run dashboard java compiled file  (located at /media/transpix/hdd1/programs)GXO_Dashboard-0.0.1.jar
+currently i have not created service file for it but you can run dashboard java compiled file  (located at /media/transpix/hdd1/programs)GXO_Dashboard-0.0.1.jar
 ```
 java -jar GXO_Dashboard-0.0.1.jar --spring.datasource.url=jdbc:mysql://localhost:3306/heatmap --spring.datasource.username=transpix --spring.datasource.password=password --spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
 ```
